@@ -1,0 +1,52 @@
+body {
+  margin: 0px;
+}
+
+header > div,
+#main,#info, #main, #ads, #notice-minimap, #helpers{
+  width: 1130px;
+  margin: 0 auto;
+}
+
+#quick-menu {
+  background-color: aqua;
+  height: 20px;
+}
+
+#search {
+  background-color: antiquewhite;
+  height: 140px;
+}
+
+nav > ol {
+  display: flex;
+}
+
+nav li {
+  margin-left: 30px;
+}
+
+#main {
+  background-color: darkkhaki;
+  height: 2614px;
+}
+
+#ads {
+    background-color:darkcyan
+  height: 86px;
+}
+
+#notice-minimap {
+    background-color:currentColor;
+    height: 32px;
+}
+
+#helpers {
+    background-color: darkgoldenrod;
+  height: 86px;
+}
+
+#info {
+    background-color: darkseagreen;
+  height: 41px;
+}
