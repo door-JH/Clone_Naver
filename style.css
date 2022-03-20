@@ -3,7 +3,12 @@ body {
 }
 
 header > div,
-#main,#info, #main, #ads, #notice-minimap, #helpers{
+#main,
+#info,
+#main,
+#ads,
+#notice-minimap,
+#helpers {
   width: 1130px;
   margin: 0 auto;
 }
@@ -32,21 +37,21 @@ nav li {
 }
 
 #ads {
-    background-color:darkcyan
+  background-color: darkcyan;
   height: 86px;
 }
 
 #notice-minimap {
-    background-color:currentColor;
-    height: 32px;
+  background-color: currentColor;
+  height: 32px;
 }
 
 #helpers {
-    background-color: darkgoldenrod;
+  background-color: darkgoldenrod;
   height: 86px;
 }
 
 #info {
-    background-color: darkseagreen;
+  background-color: darkseagreen;
   height: 41px;
 }
