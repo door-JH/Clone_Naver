@@ -1,57 +1,23 @@
-body {
-  margin: 0px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-header > div,
-#main,
-#info,
-#main,
-#ads,
-#notice-minimap,
-#helpers {
-  width: 1130px;
+#header-center {
   margin: 0 auto;
+  width: 1080px;
 }
 
-#quick-menu {
-  background-color: aqua;
-  height: 20px;
+#header-search > h1 {
+    width: 280px;
+    display: inline-block;
 }
 
-#search {
-  background-color: antiquewhite;
-  height: 140px;
+#header-search h2 {
+  display: none;
 }
 
-nav > ol {
-  display: flex;
-}
-
-nav li {
-  margin-left: 30px;
-}
-
-#main {
-  background-color: darkkhaki;
-  height: 2614px;
-}
-
-#ads {
-  background-color: darkcyan;
-  height: 86px;
-}
-
-#notice-minimap {
-  background-color: currentColor;
-  height: 32px;
-}
-
-#helpers {
-  background-color: darkgoldenrod;
-  height: 86px;
-}
-
-#info {
-  background-color: darkseagreen;
-  height: 41px;
+#header-search fieldset {
+  width: 520px;
+  display: inline-block;
 }
