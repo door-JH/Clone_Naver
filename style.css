@@ -2,26 +2,31 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
 
 nav {
+  display: inline-block;
+  width: 100%;
   height: 52px;
   box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
-
 }
 
+header {
+  border-bottom: 1px solid #e4e8eb;
+}
 
 nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
   display: inline-block;
-  
 }
-nav li, nav a {
+nav li,
+nav a {
   display: inline-block;
   text-decoration: none;
 }
@@ -32,36 +37,52 @@ input {
   width: 444px;
   height: 50px;
   vertical-align: top;
-  font-size: 18px;  
+  font-size: 18px;
   font-weight: 700;
   line-height: 24px;
   position: relative;
   top: -11px;
 }
 
+#quick_menu a {
+  text-decoration: none;
+}
+
+#quick_menu {
+  position: absolute;
+  top: 0px;
+  right: 12px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
 #header-search {
   height: 170px;
+  padding-top: 50px;
+  clear: both;
 }
 
 .center-align {
   margin: 0 auto;
   width: 1080px;
+  padding-top: 10px;
 }
 
 #header-search > a {
-    width: 222px;
-    height: 51px;
-    display: inline-block;
-    /* background-image: url(https://s.pstatic.net/static/www/img/uit/sp_main_dba1af.png);
+  width: 222px;
+  height: 51px;
+  display: inline-block;
+  /* background-image: url(https://s.pstatic.net/static/www/img/uit/sp_main_dba1af.png);
     background-position: 0 -158px;
-    background-repeat: no-repeat; */      
-    background: url(https://s.pstatic.net/static/www/img/uit/sp_main_dba1af.png) 0 -160px no-repeat;
-    background-size: 457px 434px;
-    text-indent: 100%;
-    overflow: hidden;
-    text-decoration: none;
-    position: relative;
-    top: -2px;
+    background-repeat: no-repeat; */
+  background: url(https://s.pstatic.net/static/www/img/uit/sp_main_dba1af.png) 0 -160px
+    no-repeat;
+  background-size: 457px 434px;
+  text-indent: 100%;
+  overflow: hidden;
+  text-decoration: none;
+  position: relative;
+  top: -2px;
 }
 
 #header-search h2 {
@@ -76,7 +97,6 @@ input {
   height: 56px;
   display: inline-block;
   position: relative;
-  
 }
 
 .blind {
@@ -88,7 +108,8 @@ input {
   overflow: hidden;
 }
 
-#header-search > fieldset, #header-search > a {
+#header-search > fieldset,
+#header-search > a {
   vertical-align: middle;
 }
 
@@ -104,7 +125,8 @@ input {
 }
 
 #search-icon {
-  background: url(https://s.pstatic.net/static/www/img/uit/sp_main_dba1af.png) -420px 0 no-repeat;
+  background: url(https://s.pstatic.net/static/www/img/uit/sp_main_dba1af.png) -420px
+    0 no-repeat;
   background-size: 457px 434px;
   display: inline-block;
   width: 22px;
@@ -118,7 +140,7 @@ input {
   font-size: 15px;
   line-height: 30px;
   font-weight: 700;
-  letter-spacing: -.3px;  
+  letter-spacing: -0.3px;
   margin-left: 8px;
 }
 
@@ -132,7 +154,7 @@ nav span:first-child {
   display: inline-block;
   width: 21px;
   height: 21px;
-  background-position: -420px -73px; 
+  background-position: -420px -73px;
   margin: 3px 9px 0 0;
   vertical-align: top;
   margin-left: -8px;
@@ -172,6 +194,88 @@ nav span:first-child {
   font-size: 15px;
   line-height: 30px;
   font-weight: 700;
-  letter-spacing: -.3px;  
+  letter-spacing: -0.3px;
   margin-left: 8px;
+}
+
+#btn_more {
+  display: inline-block;
+  margin-left: 17px;
+  font-size: 13px;
+  line-height: 30px;
+  color: #202020;
+  text-align: right;
+}
+
+#btn_more_icon {
+  display: inline-block;
+  width: 11px;
+  height: 7px;
+  background: url(https://s.pstatic.net/static/www/img/uit/sp_main_dba1af.png) -444px -330px
+    no-repeat;
+  background-size: 457px 434px;
+  margin-left: 5px;
+}
+
+#hot_keyword {
+  display: inline-block;
+  padding-left: 140px;
+  height: 21px;
+  text-align: right;
+}
+
+#hot_keyword > span:nth-child(2) {
+  margin-left: 10px;
+}
+
+#quick_menu a,
+#quick_menu span {
+  font-size: 11px;
+  color: #404040;
+}
+
+.sa_bar {
+  display: inline-block;
+  position: relative;
+  top: 4px;
+  width: 1px;
+  height: 10px;
+  margin: 3px 7px;
+  background-color: #e4e8eb;
+}
+#jrnaver_icon {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  width: 26px;
+  height: 26px;
+  background: url(https://s.pstatic.net/static/www/img/uit/sp_main_dba1af.png) -308px -345px
+    no-repeat;
+  background-size: 457px 434px;
+}
+
+#mouse_keyboard,
+#auto_keyword {
+  background-image: url(https://s.pstatic.net/static/www/img/uit/sp_main_dba1af.png);
+  background-repeat: no-repeat;
+  background-size: 457px 434px;
+}
+#mouse_keyboard {
+  display: inline-block;
+  width: 22px;
+  height: 12px;
+  background-position: -420px -395px;
+}
+
+#auto_keyword {
+  display: inline-block;
+  width: 10px;
+  height: 7px;
+  background-position: -408px -77px;
+}
+fieldset > a {
+  text-decoration: none;
+  position: relative;
+  top: 4px;
+  left: 10px;
 }
