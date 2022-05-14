@@ -384,6 +384,7 @@ main {
   width: 94px;
   z-index: 1;
   vertical-align: top;
+ 
 }
 
 #category_group a {
@@ -394,6 +395,7 @@ main {
   font-weight: 700;
   text-align: center;
   text-decoration: none;
+  color: #000;
 }
     
     
